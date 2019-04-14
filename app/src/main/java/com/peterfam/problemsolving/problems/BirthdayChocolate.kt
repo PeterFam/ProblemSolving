@@ -1,7 +1,7 @@
 package com.peterfam.problemsolving.problems
 
 /**
- *  HackerRank Probems "Apple and Orange"
+ *  HackerRank Problems "Apple and Orange"
  *  https://www.hackerrank.com/challenges/the-birthday-bar/problem
  *
  */

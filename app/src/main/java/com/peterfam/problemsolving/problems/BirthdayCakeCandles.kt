@@ -1,7 +1,7 @@
 package com.peterfam.problemsolving.problems
 
 /**
- *  HackerRank Probems "Birthday Cake Candles"
+ *  HackerRank Problems "Birthday Cake Candles"
  *  https://www.hackerrank.com/challenges/birthday-cake-candles/problem
  *
  */

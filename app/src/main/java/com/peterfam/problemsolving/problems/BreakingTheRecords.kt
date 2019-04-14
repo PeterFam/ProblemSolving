@@ -1,7 +1,7 @@
 package com.peterfam.problemsolving.problems
 
 /**
- *  HackerRank Probems "Breaking the Records"
+ *  HackerRank Problems "Breaking the Records"
  *  https://www.hackerrank.com/challenges/breaking-best-and-worst-records/problem
  *
  */

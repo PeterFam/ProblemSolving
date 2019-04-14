@@ -1,7 +1,7 @@
 package com.peterfam.problemsolving.problems
 
 /**
- *  HackerRank Probems "Divisible Sum Pairs"
+ *  HackerRank Problems "Divisible Sum Pairs"
  *  https://www.hackerrank.com/challenges/divisible-sum-pairs/problem
  *
  */

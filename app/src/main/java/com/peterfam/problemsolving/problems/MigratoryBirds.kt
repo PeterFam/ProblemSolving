@@ -1,27 +1,33 @@
 package com.peterfam.problemsolving.problems
 
-import android.util.Log
-
+/**
+ *  HackerRank Problems "Migratory Birds"
+ *  https://www.hackerrank.com/challenges/migratory-birds/problem
+ *
+ */
 fun migratoryBirds(arr: Array<Int>): Int {
 
     var birdType = 0
     var bird = 0
+    var birdValue = 0
     var birdMap: HashMap<Int, Int> = HashMap()
     for (i in arr.indices) {
-        if (birdMap.containsValue(arr[i]))
+        if (!birdMap.containsKey(arr[i])) {
             for (j in arr) {
                 if (arr[i] == j) {
                     birdType++
                 }
             }
-        if (birdType > 0) {
-            birdMap[bird] = arr[i]
+            birdMap[arr[i]] = birdType
+            birdType = 0
         }
-        birdType = 0
     }
 
-
-    var maxBird = birdMap.maxBy { it.key }
-
+    for (i in birdMap.keys) {
+        if (birdMap[i]!! > birdValue) {
+            birdValue = birdMap[i]!!
+            bird = i
+        }
+    }
     return bird
 }

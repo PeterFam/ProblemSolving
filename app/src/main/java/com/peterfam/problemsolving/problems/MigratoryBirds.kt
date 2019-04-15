@@ -4,22 +4,24 @@ import android.util.Log
 
 fun migratoryBirds(arr: Array<Int>): Int {
 
-    var birdTypeCount = 0
     var birdType = 0
-    var bird = arr.max()
+    var bird = 0
+    var birdMap: HashMap<Int, Int> = HashMap()
     for (i in arr.indices) {
-        for (j in arr) {
-            if (arr[i] == j) {
-                birdType++
+        if (birdMap.containsValue(arr[i]))
+            for (j in arr) {
+                if (arr[i] == j) {
+                    birdType++
+                }
             }
-        }
-        if ((birdType > birdTypeCount) && (arr[i] < bird!!)) {
-
-                birdTypeCount = birdType
-                bird = arr[i]
+        if (birdType > 0) {
+            birdMap[bird] = arr[i]
         }
         birdType = 0
     }
-//    Log.d("BirdsMap", map.toString())
-    return bird!!
+
+
+    var maxBird = birdMap.maxBy { it.key }
+
+    return bird
 }

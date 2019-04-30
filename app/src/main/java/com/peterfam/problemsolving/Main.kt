@@ -1,6 +1,6 @@
 package com.peterfam.problemsolving
 
-import com.peterfam.problemsolving.arrays.rotLeft
+import com.peterfam.problemsolving.arrays.minimumSwaps
 
 /**Hacker Rank Problem solving */
 fun main() {
@@ -13,6 +13,8 @@ fun main() {
     // breakingRecords(arrayOf(10, 5, 20, 20, 4, 5, 2, 25, 1))
     //println(divisibleSumPairs(6, 3, arrayOf(1, 3, 2, 6, 1, 2)))
     //println(migratoryBirds(arrayOf(1, 4, 4, 4, 5, 3)))
-    println(rotLeft(arrayOf(1, 2, 3, 4 ,5), 4))
+   // println(rotLeft(arrayOf(1, 2, 3, 4 ,5), 4))
+
+    println(minimumSwaps(arrayOf(1, 3, 5, 2, 4, 6, 7)))
 }
 

@@ -1,6 +1,7 @@
 package com.peterfam.problemsolving
 
 import com.peterfam.problemsolving.arrays.minimumSwaps
+import com.peterfam.problemsolving.problems.bonAppetit
 import com.peterfam.problemsolving.problems.dayOfProgrammer
 
 /**Hacker Rank Problem solving */
@@ -16,6 +17,7 @@ fun main() {
     //println(migratoryBirds(arrayOf(1, 4, 4, 4, 5, 3)))
    // println(rotLeft(arrayOf(1, 2, 3, 4 ,5), 4))
     //println(minimumSwaps(arrayOf(1, 3, 5, 2, 4, 6, 7)))
-    println(dayOfProgrammer(2016))
+   // println(dayOfProgrammer(2016))
+    bonAppetit(arrayOf(3, 10, 2, 9), 1, 12)
 }
 

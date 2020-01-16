@@ -8,7 +8,6 @@
 .idea_modules/
 *.iml
 target/
-php/vendor
 /js/**/node_modules
 csharp/dotnet/Kata/.vs
 csharp/dotnet/Kata/packages
@@ -33,3 +32,4 @@ clojure/**/.lein-plugins/
 clojure/**/.lein-failures
 clojure/**/.nrepl-port
 rust/Cargo.lock
+python/pytest/.pytest_cache

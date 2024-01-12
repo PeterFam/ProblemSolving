@@ -9,6 +9,7 @@ repositories {
 
 dependencies {
     implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.10")
+    implementation("org.testng:testng:6.9.6")
     testImplementation("org.jetbrains.kotlin:kotlin-test:1.7.10")
     testImplementation("org.junit.jupiter:junit-jupiter-api:5.8.2")
 }

@@ -4,7 +4,7 @@ class FindNonRepeatedChar {
 
     fun findNonRepeatedChar(text: String): Char{
         val map: MutableMap<Char, Int> = mutableMapOf()
-        text.forEach {  c ->
+        text.trim().forEach {  c ->
             val count = if(map.containsKey(c)) map[c] else 0
             map[c] = count!! + 1
         }
